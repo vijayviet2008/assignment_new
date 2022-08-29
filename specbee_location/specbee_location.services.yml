@@ -1,0 +1,11 @@
+services:
+  specbee_location.current_time:
+    class: Drupal\specbee_location\CurrentTime
+    arguments: ['@config.factory']
+
+  specbee_location.specbee_location_cache:
+    class: Drupal\Core\Cache\CacheBackendInterface
+    tags:
+      - { name: cache.bin }
+    factory: cache_factory:get
+    arguments: [specbee_location_cache]

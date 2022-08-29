@@ -1,0 +1,12 @@
+
+<div id="location_time">
+  {% if data.country %}
+  <div id="country">{{ data.country }} </div>
+  {% endif %}
+  {% if data.city %}
+  <div id="city">{{ data.city }}</div>
+  {% endif %}
+  {% if current_time %}
+  <div id="current-time"> {{ current_time }} </div>
+  {% endif %}
+</div>

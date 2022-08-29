@@ -1,0 +1,7 @@
+specbee_location.settings_form:
+  path: '/admin/config/system/specbee-location'
+  defaults:
+    _title: 'Specbee location settings'
+    _form: 'Drupal\specbee_location\Form\SettingsForm'
+  requirements:
+    _permission: 'administer specbee_location configuration'

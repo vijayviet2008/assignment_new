@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for specbee location module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function specbee_location_theme() {
+  return [
+    'location_time' => [
+      'variables' => [
+        'data' => NULL,
+        'current_time' => NULL,
+      ],
+    ],
+  ];
+}

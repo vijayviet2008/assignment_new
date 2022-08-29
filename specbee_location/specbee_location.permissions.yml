@@ -1,0 +1,4 @@
+administer specbee_location configuration:
+  title: 'Administer specbee location configuration'
+  description: 'Specbee locationd permission.'
+  restrict access: true

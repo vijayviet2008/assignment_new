@@ -1,0 +1,6 @@
+name: Specbee location
+type: module
+description: Display location and the current time
+configure: specbee_location.settings_form
+package: Custom
+core_version_requirement: ^9 || ^10

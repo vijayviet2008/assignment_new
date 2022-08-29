@@ -1,0 +1,6 @@
+specbee_location.settings_form:
+  title: 'Specbee location'
+  description: 'Configure specbee location.'
+  parent: system.admin_config_system
+  route_name: specbee_location.settings_form
+  weight: 10

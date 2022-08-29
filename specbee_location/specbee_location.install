@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the specbee_location module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function specbee_location_uninstall() {
+  \Drupal::configFactory()->getEditable('specbee_location.settings')->delete();
+}
